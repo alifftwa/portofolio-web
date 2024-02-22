@@ -5,25 +5,25 @@ const Navbar = () => {
   return (
     <div className="bg-[#0B1121] text-white">
       <div className="mx-6 py-8">
-        <div className="grid grid-cols-3">
+        <div className="w-full grid grid-cols-3">
           {/* Alpha Logo */}
-          <div>
+          <div className="xl:w-max md:w-14">
             <img src={Logo1} alt="" />
           </div>
 
           {/* Menu */}
           <div className="flex gap-10 justify-center">
-            <div className="text-xl font-medium">
+            <div className="font-medium xl:text-xl md:text-sm">
               <a href="">
                 <button>Home</button>
               </a>
             </div>
-            <div className="text-xl font-medium">
+            <div className="font-medium xl:text-xl md:text-sm">
               <a href="">
                 <button>About</button>
               </a>
             </div>
-            <div className="text-xl font-medium">
+            <div className="font-medium xl:text-xl md:text-sm">
               <a href="">
                 <button>Portofolio</button>
               </a>
@@ -33,7 +33,7 @@ const Navbar = () => {
           {/* Github Logo */}
           <div className="flex justify-end">
             <a href="https://github.com/alifftwa">
-              <div className="w-8">
+              <div className="xl:w-8 md:w-5 sm:w-6">
                 <img src={GithubLogo} alt="" />
               </div>
             </a>

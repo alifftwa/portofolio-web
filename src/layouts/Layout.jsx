@@ -5,7 +5,7 @@ export default function Layout({ children }) {
     <div>
       <main>
         <div className="container mx-auto">
-          <div className="px-32">{children}</div>
+          <div className="xl:px-32 md:px-9 sm:px-0">{children}</div>
         </div>
       </main>
     </div>
